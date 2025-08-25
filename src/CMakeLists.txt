@@ -11,5 +11,5 @@ file(GLOB SRC_FILES
 
 add_executable(${PROJECT_NAME} ${SRC_FILES})
 #target_link_libraries(${PROJECT_NAME} ModernCppUtils fmt::fmt)
-target_link_libraries(${PROJECT_NAME} PRIVATE ZLIB::ZLIB CURL::libcurl)
+#target_link_libraries(${PROJECT_NAME} PRIVATE ZLIB::ZLIB CURL::libcurl)
 target_include_directories(${PROJECT_NAME} PRIVATE "." )
